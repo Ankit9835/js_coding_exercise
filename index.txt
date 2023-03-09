@@ -1,0 +1,10 @@
+Named export is like 
+  export {name,test}
+  import {name,test} from './app.js'
+
+Default Export is like
+   export default name
+   import name from ''./app.js
+
+
+Throotling is used when to get a result after each certain period of time same as debouncing but in debouncing it will reset the timer or functionality if we type it within fixed timer and set it to a defined timer
