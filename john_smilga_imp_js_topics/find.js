@@ -1,3 +1,5 @@
+// it returns a first value from filtering the data
+
 const people = [
   { name: 'bob', age: 20, position: 'developer' },
   { name: 'peter', age: 25, position: 'designer' },
@@ -6,7 +8,7 @@ const people = [
 ]
 
 const find = people.find((prsn) => {
-  return prsn.age <= 25
+  return prsn.age >= 25
 })
 
 console.log(find)
